@@ -32,25 +32,25 @@
   font-size: 18px;
   margin: 0 auto;
 }
-.right {
+.rightMenuBar {
   display: flex;
   font-size: 18px;
   align-items: center;
   gap: 250px;
 }
-.right .listItems {
+.rightMenuBar .listItems {
   display: flex;
   gap: 40px;
 }
-.right .btnMenuBar {
+.rightMenuBar .btnMenuBar {
   display: flex;
   gap: 22px;
   align-items: center;
 }
-.right .listItems .item {
+.rightMenuBar .listItems .item {
   font-family: Ageo700;
 }
-.right .btnMenuBar .btnSignUp {
+.rightMenuBar .btnMenuBar .btnSignUp {
   border-radius: 10px;
   background-color: #f60;
   color: #fff;
@@ -58,7 +58,7 @@
   padding: 10px 29px 10px 30px;
   cursor: pointer;
 }
-.right .btnMenuBar .btnSignUp:hover {
+.rightMenuBar .btnMenuBar .btnSignUp:hover {
   background-color: rgb(217, 88, 2);
 }
 .pageTitle {
