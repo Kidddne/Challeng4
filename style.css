@@ -62,7 +62,7 @@
 .pageTitle {
   display: flex;
   margin: 0 auto;
-  width: 1206px;
+  width: 1170px;
   margin: 0 auto;
   padding-bottom: 153px;
 }
@@ -441,6 +441,5 @@
   /* Text / Paragraph */
   display: flex;
   justify-content: center;
-
   padding: 40px 320px 41px 1px;
 }
