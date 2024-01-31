@@ -14,9 +14,7 @@
   font-family: Ageo500;
   src: url("../Challenge4/font/AgeoTrial-Regular.ttf") format("truetype");
 }
-.allPage {
-  margin: 48px 135px 0;
-}
+
 .pageFontAgeo {
   font-family: Ageo500;
   color: #000;
@@ -63,10 +61,15 @@
 }
 .pageTitle {
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
+  width: 1206px;
+  margin: 0 auto;
+  padding-bottom: 153px;
 }
 .wrapText {
   padding-top: 114px;
+  position: relative;
+  z-index: 1;
 }
 .pageTitle .mainTitle {
   color: #0b1b35;
@@ -96,6 +99,10 @@
   color: #fff;
   cursor: pointer;
 }
+.btnGetStarted:hover {
+  background-color: rgb(217, 88, 2);
+}
+
 .btnLearnMore {
   display: flex;
   align-items: center;
@@ -105,6 +112,9 @@
 }
 .pageTitle .img {
   padding-top: 26px;
+  position: absolute;
+  z-index: 2;
+  left: 660px;
 }
 .container {
   width: 1170px;
@@ -185,7 +195,9 @@
   font-family: Ageo500;
   cursor: pointer;
 }
-
+.listServiceTags .tagBtn:hover {
+  background-color: rgb(217, 88, 2);
+}
 .pageFontDM-Sans {
   font-family: "DM Sans", sans-serif;
 }
@@ -349,22 +361,21 @@
 }
 .pageFontRoboto .content {
   display: flex;
-  justify-content: space-between;
-  gap: 114.52px;
+  gap: 49px;
 }
 .pageFontRoboto .contentText {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .pageFontRoboto .text {
   font-size: 18px;
   font-weight: 400;
   line-height: 28.5px; /* 158.333% */
-  width: 684px;
-  height: 78px;
   padding-bottom: 23px;
+  padding-left: 12px;
+  height: 78px;
 }
 .pageFontRoboto .btn {
   display: flex;
@@ -384,9 +395,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 28.5px; /* 118.75% */
-  padding: 24px 440px 24px 67px;
-  display: flex;
-  width: 193px;
+  padding: 24px 0 24px 67px;
 }
 .btnSubscribeOurNewsletter {
   border-radius: 10px;
@@ -407,16 +416,18 @@
 }
 .online {
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
   align-items: center;
   gap: 141px;
   color: var(--Colors-Heading, #1e0e62);
   border-bottom: 2px solid var(--Colors-Grey, #ebeaed);
+  width: 1170px;
   padding-bottom: 31px;
 }
 .pageFooter .listItems {
   display: flex;
-  gap: 30px;
+  gap: 39px;
+  width: 455px;
 }
 .logo {
   display: flex;
@@ -425,7 +436,11 @@
   align-items: center;
 }
 .lastWord {
-  padding-top: 40px;
+  border: none;
   color: var(--Colors-Text, rgba(21, 20, 57, 0.4));
   /* Text / Paragraph */
+  display: flex;
+  justify-content: center;
+
+  padding: 40px 320px 41px 1px;
 }
